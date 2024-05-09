@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Student Registration | Montessorri High School</title>
+        <link rel = "stylesheet" href = "Assets/index.css">
+        <script src="Assets/index.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Student Registration and Tracking Portal</h1>
+            <marquee>Student registration is the next step after fee payment. Please make sure that you fill details correctly. </marquee>
+        </header>
+        <main>
+            <section>
+                <article>
+                        <h2>Register New Student</h2>
+                        <label><b>First Name<span>*</span></b></label>
+                        <input type="text" required placeholder="e.g: Jaswanth">
+                        <label><b>Last Name</b></label>
+                        <input type="text" placeholder="e.g: Kurakula">
+                        <label><b>Registation Number<span>*</span></b></label>
+                        <input type="number" required placeholder="e.g: 11910043">
+                        <label><b>Phone Number<span>*</span></b></label>
+                        <input type="tel" required placeholder="e.g: +91 8297584161">
+                        <label><b>Email Id<span>*</span></b></label>
+                        <input type="email" required placeholder="e.g: xyz@gmail.com">
+                        <button>Create</button>
+                    </article>
+            </section>
+            <section>
+                <div>
+                    <h2>Registered students</h2>
+                    <div>
+                        <div>S.No</div>
+                        <div>First Name</div>
+                        <div>Last Name</div>
+                        <div>Registration Number</div>
+                        <div>Contact Number</div>
+                        <div>Email Id</div>
+                    </div>
+                </div>
+            </section>  
+            <button id="userButton"><img src="Assets/user.png" width="50" height="50"></button>
+        </main>
+    </body>
+</html>
